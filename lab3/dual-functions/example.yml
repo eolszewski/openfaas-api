@@ -1,0 +1,13 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  first:
+    lang: node
+    handler: ./first
+    image: first
+  second:
+    lang: node
+    handler: ./second
+    image: second
