@@ -3,6 +3,8 @@ This is a simple API built on OpenFaaS
 
 # Installation
 
+brew install that faas cli
+
 https://github.com/openfaas/workshop/blob/master/lab1.md
 
 export OPENFAAS_URL=http://openfaas.endpoint.com:8080
